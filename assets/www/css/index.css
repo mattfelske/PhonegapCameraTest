@@ -1,0 +1,34 @@
+div.wrapper { overflow: hidden; width: inherit; background: white; }
+
+body {
+	background: red;
+}
+
+.photo{
+     height: 100px;
+}
+
+.photo .img-responsive, .accountVerifyingScreen .img-responsive, .accountCreationScreen.loadingScreen .img-responsive, .img-responsive{
+    margin: 0 auto;
+}
+
+.pic1{
+    height: 80px;
+    padding-left: 15px;
+}
+
+.pic2{
+    height: 80px;
+}
+
+.pic3{
+    height: 80px;
+    padding-right: 15px;
+}
+
+.photoText {
+    padding-left:8%;
+    padding-right:8%;
+    text-align:center;
+
+}
