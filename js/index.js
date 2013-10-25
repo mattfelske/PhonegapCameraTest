@@ -94,6 +94,10 @@ function printImageDetails() {
     });
 }
 
+function testingLabel() {
+	document.getElementById("testLabel").innerHTML = "Test 1 2 3";
+}
+
 
 
 //var pictureSource;   // picture source
