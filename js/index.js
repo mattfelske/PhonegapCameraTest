@@ -190,7 +190,7 @@ function capturePhoto(id) {
 //
 function onFail(message) {
     console.log('Failed because: ' + message);
-    
+    alert('Failed because: ' + message);
     //Change image back because no photo was retrieved
     document.getElementById(photoID).src = "img/addPhoto.png";
     
